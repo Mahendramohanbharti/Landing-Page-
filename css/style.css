@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #333;
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid orange;
+}
+header h1{
+    margin: 0;
+}
+nav{
+    padding: 20px;
+    background-color: #aaa;
+}
+nav a{
+    padding: 21px;
+    text-decoration: none;
+    color: white;
+}
+nav .active{
+    color: blue;
+    opacity: 0.8;
+}
+#showcase{
+    overflow: hidden;
+    max-height: 450px;
+    position: relative;
+    
+}
+#showcase img{
+    width: 100%;
+    
+}
+#showcase .content{
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.content h2{
+    font-size: 50px;
+    margin: 10px;
+}
+.content button{
+    color: blue;
+    background-color: grey;
+    border-radius: 20px;
+    border: 0;
+    padding: 13px 30px;
+    font-size: 15px;
+    box-shadow: 0px 0px 15px green;
+}
+#services{
+    text-align: center;
+    background-color: #ddd;
+}
+#services h2{
+    margin: 0;
+    padding: 15px;
+}
+#services .card{
+    display: inline-block;
+    max-width: 250px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 2px 2px 15px 5px grey;
+    margin: 20px;
+}
+#services .card img{
+    width: 100%;
+}
+#description{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 50px;
+
+}
+footer{
+    background-color:black;
+    height: 120px;
+    border-top: orange 5px solid;
+    color: white;
+}
+footer div{
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    background-color: orchid;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
